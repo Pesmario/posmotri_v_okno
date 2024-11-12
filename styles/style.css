@@ -203,8 +203,16 @@ fieldset {
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
+  max-width: 200px;
   text-transform: uppercase;
   padding-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content__video-card-description {
+  max-width: 200px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -214,7 +222,8 @@ fieldset {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-top: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .search-form__pseudo-checkbox {
